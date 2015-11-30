@@ -33,18 +33,22 @@
     <Reference Include="Moq">
       <HintPath>..\lib\Moq.4.2.1408.0717\lib\net40\Moq.dll</HintPath>
     </Reference>
+    <Reference Include="NetReflector, Version=1.1.2009.1214, Culture=neutral, PublicKeyToken=2f4dd8b32acbcd8e, processorArchitecture=MSIL">
+      <HintPath>..\packages\NetReflector.1.1.2009\lib\net20\NetReflector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>..\lib\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="ThoughtWorks.CruiseControl.Core, Version=1.6.7981.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\lib\CCNet.1.6\ThoughtWorks.CruiseControl.Core.dll</HintPath>
+    <Reference Include="ThoughtWorks.CruiseControl.Core, Version=1.8.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CruiseControl.Net.1.8.3\lib\net20\ThoughtWorks.CruiseControl.Core.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="ThoughtWorks.CruiseControl.Remote, Version=1.6.7981.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\lib\CCNet.1.6\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
+    <Reference Include="ThoughtWorks.CruiseControl.Remote, Version=1.8.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CruiseControl.Net.1.8.3\lib\net20\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
